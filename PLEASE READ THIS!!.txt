@@ -1,0 +1,17 @@
+Thank you bro for wanting to help me out.
+
+my goal here is simple and straight forward.
+
+i'm using react hook form in react native..
+
+for now, i have only 2 field, first Name and last Name
+each field has it own separate screen, but they share the same parent, and the parent uses the "useFormContext" 
+
+now i have successfully, (using !isValid) managed to disable/enable the continue button in each screen depending on if the field for that particular screen is properly filled, now, i can go to the next screen, and if i do, that's good, but if i go to the previous screen, the "continue button" is now disabled, whereas the input value remains inside the input box...
+
+I'm thinking this has to do with the way react hook form works by default, which is to unregister the input after successful validation, if there are ways to keep those state for that input onMount and unMount
+
+WHAT I WANT YOU TO HELP ME DO.
+
+ disabled/enable the continue button depending on if the field for that particular screen is properly filled,
+ go back and front to each screen but making sure that when i go to previous screen, since i'd already validated it before, the continue button should'nt be disabled until i purposely go to disobey the rules set for that field.   
